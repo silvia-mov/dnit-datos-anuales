@@ -3,7 +3,7 @@
 Un Excel por año (2011–2026) y por operación (exportación e importación), armado con los datos abiertos
 "Nivel Item" de la Dirección Nacional de Ingresos Tributarios (DNIT, https://datosabiertos.aduana.gov.py).
 
-Cada archivo tiene: **Datos** (Calibri 10), **Tabla dinámica**, **Descripciones** (texto de cada posición),
+Cada archivo tiene: **Datos** (Calibri 10), **Descripciones** (texto de cada posición),
 **Regímenes** (qué es cada código y si se cuenta) y **Notas**.
 
 - Los meses se juntaron por año: se suman los ítems que coinciden en todos los campos de la DNIT, salvo los
