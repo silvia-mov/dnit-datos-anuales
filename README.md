@@ -24,5 +24,5 @@ Cada archivo tiene: **Datos** (Calibri 10), **Descripciones** (texto de cada pos
 - Valores en dólares, salvo IMPONIBLE GS y los impuestos, en guaraníes. 2026: enero a octubre.
 
 Código: `python/dnit_raw_por_anio.py` en
-[comercio-exterior-paraguay-dnit-mic](https://github.com/silvia-mov/comercio-exterior-paraguay-dnit-mic).
+[comercio-exterior-paraguay-acuerdos](https://github.com/silvia-mov/comercio-exterior-paraguay-acuerdos).
 Proyecto independiente; no representa a la DNIT.
