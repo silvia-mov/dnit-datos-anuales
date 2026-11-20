@@ -14,6 +14,13 @@ Cada archivo tiene: **Datos** (Calibri 10), **Descripciones** (texto de cada pos
 - **MOTIVO_ARANCEL** (importaciones): con acuerdo, pagó arancel, AEC 0 %, o la lista de Paraguay notificada al
   MERCOSUR que explica el arancel cero (Bienes de Capital, Informática y Telecomunicaciones, Lista Nacional de
   Excepciones, Materias Primas); si no, otra ley o régimen nacional.
+  "Con acuerdo, pero AEC 0 %" = declaró un acuerdo para un producto que ya tiene arancel 0 para todos (el acuerdo
+  no le da ventaja). El AEC es el de la versión de la NCM vigente cada año (63 versiones de SAREM, 2002–2026, en
+  [nomenclaturas-y-correlaciones-del-mercosur](https://github.com/silvia-mov/nomenclaturas-y-correlaciones-del-mercosur)).
+- **REGIMEN_TRIBUTARIO** (importaciones): según el IVA pagado sobre la base imponible: sin IVA, IVA 5 %, IVA 10 %,
+  Turismo de Compras (IVA ≈ 1,25 %) u otro IVA reducido.
+- **ALERTA_PESO**: avisa cuando el valor por kilo se aleja 50 veces o más de lo habitual para ese código NCM en el
+  año (posible error en los kilos), o cuando no hay kilos.
 - Valores en dólares, salvo IMPONIBLE GS y los impuestos, en guaraníes. 2026: enero a octubre.
 
 Código: `python/dnit_raw_por_anio.py` en
